@@ -670,6 +670,18 @@ class EntitiesTest extends TestCase
                 ],
             ],
             [
+                'html',
+                '<blockquote>blockquote</blockquote>',
+                'blockquote',
+                [
+                    [
+                        'offset' => 0,
+                        'length' => 10,
+                        'type' => 'blockquote',
+                    ],
+                ],
+            ],
+            [
                 'markdown',
                 '_a b c <b\> & " \' \_ \* \~ \\__',
                 'a b c <b> & " \' _ * ~ _',
